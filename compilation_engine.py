@@ -466,7 +466,7 @@ class CompilationEngine:
     def compile_expression(self):
 
         # opening statement tag
-        self._write_tag('compile expression', self.tokenizer.keyword())
+        self._write_tag('expression')
         self.indent_level += 1
 
 
